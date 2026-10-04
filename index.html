@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+        <title>CST2550 Revision</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+        <main>
+            <h1>CST2550 Revision &middot; Weeks 1-6</h1>
+
+            <div class="tabs">
+                <button id="tq" class="on">Quiz (MCQ)</button>
+                <button id="tc">Flashcards</button>
+            </div>
+
+            <div class="chips" id="weeks"></div>
+
+            <div class="row">
+                <button id="miss">Missed only</button>
+                <button id="shuf">Shuffle</button>
+                <button id="rst">Reset</button>
+            </div>
+
+            <div class="bar">
+                <i id="fill"></i>
+            </div>
+
+            <div class="meta">
+                <span id="pos"></span>
+                <span id="score"></span>
+            </div>
+
+            <div id="card">
+                <div id="tag"></div>
+                <div id="txt"></div>
+                <div id="opts"></div>
+                <div id="ex"></div>
+                <div id="hint" class="hide">Tap card to flip</div>
+            </div>
+
+            <div class="nav">
+                <button id="prev">&larr;</button>
+                <button id="no" class="no hide">Missed</button>
+                <button id="ok" class="ok hide">Got it</button>
+                <button id="next">Next &rarr;</button>
+            </div>
+        </main>
+
+        <script src="data.js"></script>
+        <script src="quiz.js"></script>
+        <script src="expl.js"></script>
+        <script src="script.js"></script>
+    </body>
+</html>
